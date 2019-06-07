@@ -1,7 +1,7 @@
 lazy val slf4s = (project in file(".")).settings(
   organization := "org.slf4s",
   name := "slf4s-api",
-  scalaVersion := "2.12.1",
+  scalaVersion := "2.13.0",
   scalacOptions := Seq("-unchecked", "-deprecation", "-language:experimental.macros"),
   version := "1.7.25",
   libraryDependencies ++= Seq(
