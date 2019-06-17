@@ -7,7 +7,7 @@ lazy val slf4s = (project in file(".")).settings(
   libraryDependencies ++= Seq(
     "org.scala-lang" % "scala-reflect" % scalaVersion.value,
     "org.slf4j" % "slf4j-api" % version.value,
-    "org.scalatest" %% "scalatest" % "3.0.1" % "test",
+    "org.scalatest" %% "scalatest" % "3.0.8" % "test",
     "org.mockito" % "mockito-core" % "2.7.22" % "test",
     "ch.qos.logback" % "logback-classic" % "1.2.3" % "test"
   ),
